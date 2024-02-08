@@ -1,2 +1,1 @@
-# LLMEval
-LLMEval
+# EasyEval

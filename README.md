@@ -1,1 +1,1 @@
-# EasyEval
+# RosettaEval

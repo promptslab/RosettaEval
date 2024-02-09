@@ -1,0 +1,12 @@
+{% if description %}{{ description }}
+{% endif %}{% if instruction %}{{ instruction }}
+{% endif %}{% if examples %}{% for item in examples %}
+Question: {{ item.question }}
+Choices:{% for choice in item.choices %}
+{{ loop.index0 | to_letter }}. {{ choice }}{% endfor %}
+Answer: {{ item.answer }}
+{% endfor %}{% endif %}
+Question: {{ question }}
+Choices:{% for choice in choices %}
+{{ loop.index }}. {{ choice }}{% endfor %}
+Answer: {{ answer }}

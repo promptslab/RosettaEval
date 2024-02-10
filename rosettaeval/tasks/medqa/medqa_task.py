@@ -1,6 +1,6 @@
 import random
 import json
-from easyeval.template_loader import TemplateLoader
+from rosettaeval.template_loader import TemplateLoader
 import os
 
 

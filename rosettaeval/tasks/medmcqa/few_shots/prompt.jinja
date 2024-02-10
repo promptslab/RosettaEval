@@ -1,6 +1,6 @@
 {% if description %}{{ description }}
 {% endif %}{% if instruction %}{{ instruction }}
-{% else %}Please select the correct answer from the choices provided for each question.
+{% else %}The following are multiple-choice questions (with answers) about medical knowledge.
 {% endif %}{% if examples %}{% for item in examples %}
 Question: {{ item.question }}
 Choices:{% for choice in item.choices %}

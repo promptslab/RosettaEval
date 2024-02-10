@@ -1,0 +1,48 @@
+select = ["ALL"]
+
+ignore = [
+  "D100",   # undocumented-public-module
+  "D104",   # undocumented-public-package
+  "D105",   # undocumented-magic-method
+  "D107",   # undocumented-public-init
+  "ANN101", # missing-type-self
+  "ANN102", # missing-type-cls
+  "TD002",  # missing-todo-author
+  "TD003",  # missing-todo-link
+
+  # Added to solve the compatibility errors
+  "D203",   # one-blank-line-before-class
+  "D212",   # multi-line-summary-first-line
+  "COM812", # missing-trailing-comma
+  "ISC001", # single-line-implicit-string-concatenation
+]
+
+# don't remove unused imports from __init__.py files
+ignore-init-module-imports = true
+
+line-length = 120
+
+# Assume Python 3.11.
+target-version = "py311"
+
+[per-file-ignores]
+"*/__init__.py" = [
+  "F401", # unused-import
+]
+"tests/*" = [
+  "S101",    # assert
+  "D102",    # undocumented-public-method
+  "D103",    # undocumented-public-function
+  "PLR2004", # magic-value-comparison
+  "SLF001",  # private-member-access
+  "S311",    # suspicious-non-cryptographic-random-usage
+]
+
+[flake8-annotations]
+allow-star-arg-any = true
+
+[flake8-unused-arguments]
+ignore-variadic-names = true
+
+[lint.pylint]
+max-args = 8

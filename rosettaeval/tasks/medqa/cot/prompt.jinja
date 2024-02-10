@@ -1,6 +1,6 @@
 {% if description %}{{ description }}
 {% endif %}{% if instruction %}{{ instruction }}
-{% else %} The following are multiple choice questions about medical knowledge. Solve them in a step-by-step fashion, starting by summarizing the available information. Output a single option from the four options as the final answer.
+{% else %}The following are multiple choice questions about medical knowledge. Solve them in a step-by-step fashion, starting by summarizing the available information. Output a single option from the four options as the final answer.
 {% endif %}{% if examples %}{% for item in examples %}
 Question: {{ item.question }}
 Choices:{% for choice in item.choices %}
@@ -10,7 +10,7 @@ Answer: {{ item.answer }}
 {% endfor %}{% endif %}
 Question: {{ question }}
 Choices:{% for choice in choices %}
-{{ loop.index }}. {{ choice }}{% endfor %}
+{{ loop.index0 | to_letter }}. {{ choice }}{% endfor %}
 Explanation: 
 Answer: {{ answer }}
 

@@ -1,0 +1,61 @@
+{
+   "examples": [
+  {
+    "question": "Mutations that cause achondroplasia exert an effect which can be classified as:",
+    "choices": [
+      "dominant negative",
+      "gain-of-function",
+      "haploinsufficiency",
+      "loss-of-function"
+    ],
+    "answer": "B",
+    "answer_text": "gain-of-function"
+  },
+  {
+    "question": "Which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects?",
+    "choices": [
+      "Amniocentesis",
+      "Chorion villus sampling (CVS)",
+      "Maternal serum screening",
+      "Ultrasonography"
+    ],
+    "answer": "B",
+    "answer_text": "Chorion villus sampling (CVS)"
+  },
+  {
+    "question": "Which of the following genes conveys susceptibility for polygenic Alzheimer disease?",
+    "choices": [
+      "APP",
+      "PS1",
+      "PS2",
+      "APOE"
+    ],
+    "answer": "D",
+    "answer_text": "APOE"
+  },
+  {
+    "question": "Which of the following is not a recognized complication of cystic fibrosis?",
+    "choices": [
+      "Cancer of the oesophagus",
+      "Congenital absence of the vas deferens",
+      "Diabetes mellitus",
+      "Liver cirrhosis"
+    ],
+    "answer": "A",
+    "answer_text": "Cancer of the oesophagus"
+  },
+  {
+    "question": "Which of the following karyotypes is not compatible with survival to birth?",
+    "choices": [
+      "47,XY,+13",
+      "47,XX,+18",
+      "47,XY,+21",
+      "45,Y"
+    ],
+    "answer": "D",
+    "answer_text": "45,Y"
+  }
+]
+
+
+}

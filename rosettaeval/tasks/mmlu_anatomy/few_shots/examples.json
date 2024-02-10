@@ -1,0 +1,59 @@
+{
+   "examples": [
+    {
+      "question": "Which of the following best describes the structure that collects urine in the body?",
+      "choices": [
+        "Bladder",
+        "Kidney",
+        "Ureter",
+        "Urethra"
+      ],
+      "answer": "A",
+      "answer_text": "Bladder"
+    },
+    {
+      "question": "Which of the following structures is derived from ectomesenchyme?",
+      "choices": [
+        "Motor neurons",
+        "Skeletal muscles",
+        "Melanocytes",
+        "Sweat glands"
+      ],
+      "answer": "C",
+      "answer_text": "Melanocytes"
+    },
+    {
+      "question": "Which of the following describes the cluster of blood capillaries found in each nephron in the kidney?",
+      "choices": [
+        "Afferent arteriole",
+        "Glomerulus",
+        "Loop of Henle",
+        "Renal pelvis"
+      ],
+      "answer": "B",
+      "answer_text": "Glomerulus"
+    },
+    {
+      "question": "In the spinal cord, motor neuron cell bodies are located in",
+      "choices": [
+        "Lamina I",
+        "Lamina II",
+        "Lamina V",
+        "Lamina IX"
+      ],
+      "answer": "D",
+      "answer_text": "Lamina IX"
+    },
+    {
+      "question": "Noradrenaline is the neurotransmitter between which of the two structures below?",
+      "choices": [
+        "parasympathetic pre- and post-ganglionic neurons",
+        "sympathetic pre- and post-ganglionic neurons",
+        "parasympathetic post-ganglionic neurons and target organs",
+        "sympathetic post-ganglionic neurons and target organs"
+      ],
+      "answer": "D",
+      "answer_text": "sympathetic post-ganglionic neurons and target organs"
+    }
+  ]
+}

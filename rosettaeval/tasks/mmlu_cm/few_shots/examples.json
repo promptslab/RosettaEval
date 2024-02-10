@@ -1,0 +1,60 @@
+{
+   "examples": [
+  {
+    "question": "The descending loop of Henle of the nephron of the kidney is permeable to which of the following substances?",
+    "choices": [
+      "Na+",
+      "H2O",
+      "K+",
+      "Cl-"
+    ],
+    "answer": "B",
+    "answer_text": "H2O"
+  },
+  {
+    "question": "A patient comes into the hospital after being bit by a dog who he stated was “acting crazy”. The wound is open and bleeding. Animal control captured the dog and said that it was foaming at the mouth and extremely aggressive. Suspecting a rabies infection, the patient is given a serum that contains rabies antibodies that were grown inside a horse. This is an example of what kind of immunity?",
+    "choices": [
+      "Passive",
+      "Active",
+      "Natural",
+      "Artificial"
+    ],
+    "answer": "A",
+    "answer_text": "Passive"
+  },
+  {
+    "question": "The process of translation requires the presence of:",
+    "choices": [
+      "mRNA, tRNA and ribosomes",
+      "mRNA, ribosomes and RNA polymerase",
+      "DNA, mRNA and RNA polymerase",
+      "chromatin, DNA and amino acids"
+    ],
+    "answer": "A",
+    "answer_text": "mRNA, tRNA and ribosomes"
+  },
+  {
+    "question": "Each of the following are aspects of the McDonaldization of Society EXCEPT:",
+    "choices": [
+      "Rationalization of decisions into cost/benefit analysis structures and away from traditional modes of thinking",
+      "Bureaucratic organization that formalizes well-establish division of labor and impersonal structures",
+      "A dissolution of hierarchical modes of authority into collaborative team-based decision protocols",
+      "An intense effort on achieving sameness across diverse markets"
+    ],
+    "answer": "C",
+    "answer_text": "A dissolution of hierarchical modes of authority into collaborative team-based decision protocols"
+  },
+  {
+    "question": "Which products of ADP degradation increase in concentration in the blood during multiple sprint sports?",
+    "choices": [
+      "Ammonia, hypoxanthine and uric acid",
+      "Ammonia, urea and uric acid",
+      "Ammonia, urea and creatinine",
+      "Ammonia, urea and creatine"
+    ],
+    "answer": "A",
+    "answer_text": "Ammonia, hypoxanthine and uric acid"
+  }
+]
+
+}

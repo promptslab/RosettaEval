@@ -2,3 +2,10 @@ from .template_loader import *
 from .utils import *
 from .tasks.medmcqa.medmcqa_task import *
 from .tasks.medqa.medqa_task import *
+from .tasks.mmlu_anatomy.mmlu_anatomy_task import *
+from .tasks.mmlu_pm.mmlu_pm_task import *
+from .tasks.mmlu_mg.mmlu_mg_task import *
+from .tasks.mmlu_cb.mmlu_cb_task import *
+from .tasks.mmlu_ck.mmlu_ck_task import *
+from .tasks.mmlu_cm.mmlu_cm_task import *
+from .tasks.pubmedqa.pubmedqa_task import *

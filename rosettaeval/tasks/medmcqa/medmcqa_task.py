@@ -4,7 +4,7 @@ from rosettaeval.template_loader import TemplateLoader
 import os
 
 
-class MedMCQA:
+class MEDMCQA:
     """
     A class to generate prompts for medical multiple-choice questions (MCQs)
     using various methods like few-shots, chain-of-thought (cot), etc.

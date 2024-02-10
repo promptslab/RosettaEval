@@ -1,0 +1,59 @@
+{
+   "examples": [
+  {
+    "question": "A palpable left parasternal impulse suggests which abnormality?",
+    "choices": [
+      "Right ventricular hypertrophy",
+      "Aortic stenosis",
+      "Aortic regurgitation",
+      "Left ventricular hypertrophy"
+    ],
+    "answer": "A",
+    "answer_text": "Right ventricular hypertrophy"
+  },
+  {
+    "question": "A muscle fibre relaxes when:",
+    "choices": [
+      "the nerve stimulus is removed",
+      "the nerve stimulus is too forceful",
+      "the actin binding sites are uncovered",
+      "the actin binding sites are saturated"
+    ],
+    "answer": "A",
+    "answer_text": "the nerve stimulus is removed"
+  },
+  {
+    "question": "Which of the following is present in saliva and has an antibacterial action?",
+    "choices": [
+      "Lysozyme",
+      "Amylase",
+      "Sodium chloride",
+      "Mucus"
+    ],
+    "answer": "A",
+    "answer_text": "Lysozyme"
+  },
+  {
+    "question": "Why should the short-acting bronchodilator be taken first?",
+    "choices": [
+      "It works to dilate the airways quickly, allowing better deposition of other medications",
+      "They are colour-coded",
+      "It is warmer than the others",
+      "It is less moist than the others"
+    ],
+    "answer": "A",
+    "answer_text": "It works to dilate the airways quickly, allowing better deposition of other medications"
+  },
+  {
+    "question": "Why might a patient need a tracheostomy?",
+    "choices": [
+      "To repair vocal cords after paralysis",
+      "To aid swallowing",
+      "As an aid to weaning patients from a ventilator",
+      "Prior to neck surgery"
+    ],
+    "answer": "C",
+    "answer_text": "As an aid to weaning patients from a ventilator"
+  }
+]
+}

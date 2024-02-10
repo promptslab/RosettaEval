@@ -9,5 +9,5 @@ Answer: {{ item.answer }}
 {% endfor %}{% endif %}
 Question: {{ question }}
 Choices:{% for choice in choices %}
-{{ loop.index }}. {{ choice }}{% endfor %}
+{{ loop.index0 | to_letter }}. {{ choice }}{% endfor %}
 Answer: {{ answer }}

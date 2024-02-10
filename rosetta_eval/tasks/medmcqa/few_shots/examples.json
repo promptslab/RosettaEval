@@ -1,0 +1,59 @@
+{
+   "examples":[
+      {
+         "question":"Epulis is?",
+         "choices":[
+            "Benign",
+            "Malignant",
+            "Reactive process",
+            "Precancerous"
+         ],
+         "answer": "A",
+         "answer_text": "Benign"
+      },
+      {
+         "question": "The most important sign of the significance of renal artery stenosis on an angiogram is?",
+         "choices":[
+            "A percentage diameter stenosis >70%",
+            "Presence of collaterals",
+            "A systolic pressure gradient >20 mmHg across the lesion",
+            "Post stenotic dilatation of the renal artery"
+         ],
+         "answer": "B",
+         "answer_text": "Presence of collaterals"
+      },
+      {
+         "question": "Ghon’s focus lies at?",
+         "choices":[
+            "Left apical parenchymal region",
+            "Right apical parenchymal region",
+            "Sub pleural caseous lesions in right upper lobe",
+            "Sub pleural caseous lesions in left upper lobe"
+         ],
+         "answer": "C",
+         "answer_text": "Sub pleural caesous lesion in right upper lobe?"
+      },
+      {
+         "question": "True about Mooren’s ulcer?",
+         "choices":[
+            "Painless condition",
+            "Affects cornea",
+            "Sudden loss of vision",
+            "Bilateral in the majority of cases"
+         ],
+         "answer": "B",
+         "answer_text": "Affects cornea"
+      },
+      {
+         "question": "Which of the following is an intermediate-acting local anesthetic which is an amino amide causing methemoglobinemia?",
+         "choices":[
+            "Procaine",
+            "Prilocaine",
+            "Etidocaine",
+            "Ropivacaine"
+         ],
+         "answer": "B",
+         "answer_text": "Prilocaine"
+      }
+   ]
+}

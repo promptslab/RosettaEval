@@ -4,9 +4,9 @@ import typing as typ
 import datasets
 import loguru
 
-from rosetta_eval.loader.adapters import KNOWN_ADAPTERS, Adapter
-from rosetta_eval.loader.types import Y
-from rosetta_eval.loader.utils import get_first_row
+from rosettaeval.loader.tasks import KNOWN_ADAPTERS, Adapter
+from rosettaeval.loader.types import Y
+from rosettaeval.loader.utils import get_first_row
 
 
 def find_adapter(row: dict[str, typ.Any]) -> Adapter:
@@ -35,7 +35,7 @@ def sample_dataset(
     return dataset.select(indices)
 
 
-def process_dataset(
+def adapt_dataset(
     dataset: datasets.Dataset,
     num_proc: int | None = 1,
     num_samples: int | None = None,
@@ -67,4 +67,4 @@ def load_dataset(
         msg = f"Cannot handle dataset of type `{type(dataset)}`"
         raise NotImplementedError(msg)
 
-    return process_dataset(dataset, num_proc, num_samples, seed)
+    return adapt_dataset(dataset, num_proc, num_samples, seed)

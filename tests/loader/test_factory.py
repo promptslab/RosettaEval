@@ -5,10 +5,10 @@ import datasets
 import loguru
 import pytest
 
-from rosetta_eval.loader.adapters.base import Adapter
-from rosetta_eval.loader.adapters.medmcqa import MedMcQaQueryAdapter
-from rosetta_eval.loader.adapters.medqa import MedQaQueryAdapter
-from rosetta_eval.loader.factory import find_adapter, process_dataset, sample_dataset
+from rosettaeval.loader.factory import adapt_dataset, find_adapter, sample_dataset
+from rosettaeval.loader.tasks.base import Adapter
+from rosettaeval.loader.tasks.medmcqa.base import MedMcQaQueryAdapter
+from rosettaeval.loader.tasks.medqa.base import MedQaQueryAdapter
 
 MEDQA_ROW = {
     "uid": "test-0",
@@ -70,5 +70,5 @@ def test_sample_dataset(num_samples: int, expected_length: int) -> None:
 
 def test_process_dataset() -> None:
     dataset = mock_huggingface_dataset()
-    actual = process_dataset(dataset)
+    actual = adapt_dataset(dataset)
     assert isinstance(actual, datasets.Dataset)

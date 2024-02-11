@@ -2,7 +2,7 @@ import uuid
 
 import pydantic
 
-from rosetta_eval.loader.types import AnswerIndex
+from rosettaeval.loader.types import AnswerIndex
 
 
 class MultipleChoiceModel(pydantic.BaseModel):

@@ -2,8 +2,8 @@ import typing as typ
 
 import pydantic
 
-from rosetta_eval.loader import models
-from rosetta_eval.loader.adapters import base
+from rosettaeval.loader import models
+from rosettaeval.loader.tasks import base
 
 
 class MedMcQaQueryModel(pydantic.BaseModel):

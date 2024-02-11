@@ -5,7 +5,7 @@ description = ""
 authors = ["Andreas Geert Motzfeldt <andreas@motzfeldt.dk>"]
 readme = "README.md"
 packages = [
-    { include = "rosetta_eval", from = "." }
+    { include = "rosettaeval", from = "." }
 ]
 
 [tool.poetry.dependencies]

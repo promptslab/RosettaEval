@@ -6,7 +6,7 @@ import loguru
 import pytest
 
 from rosettaeval.loader.factory import adapt_dataset, find_adapter, sample_dataset
-from rosettaeval.loader.tasks.base import Adapter
+from rosettaeval.loader.tasks.adapter import Adapter
 from rosettaeval.loader.tasks.medmcqa.base import MedMcQaQueryAdapter
 from rosettaeval.loader.tasks.medqa.base import MedQaQueryAdapter
 

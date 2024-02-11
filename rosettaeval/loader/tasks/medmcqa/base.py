@@ -2,8 +2,7 @@ import typing as typ
 
 import pydantic
 
-from rosettaeval.loader import models
-from rosettaeval.loader.tasks import base
+from rosettaeval.loader.tasks import adapter, models
 
 
 class MedMcQaQueryModel(pydantic.BaseModel):
@@ -18,7 +17,7 @@ class MedMcQaQueryModel(pydantic.BaseModel):
     cop: int = pydantic.Field(..., description="correct option")
 
 
-class MedMcQaQueryAdapter(base.Adapter[MedMcQaQueryModel, models.MultipleChoiceModel]):
+class MedMcQaQueryAdapter(adapter.Adapter[MedMcQaQueryModel, models.MultipleChoiceModel]):
     """An adapter for multiple-choice datasets."""
 
     input_model = MedMcQaQueryModel

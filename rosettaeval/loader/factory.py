@@ -5,7 +5,7 @@ import datasets
 import loguru
 
 from rosettaeval.loader.tasks import KNOWN_ADAPTERS, Adapter
-from rosettaeval.loader.types import Y
+from rosettaeval.loader.tasks.types import Y
 from rosettaeval.loader.utils import get_first_row
 
 

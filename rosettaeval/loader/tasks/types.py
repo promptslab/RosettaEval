@@ -6,6 +6,7 @@ from pydantic import BeforeValidator
 ANSWER_CHOICES_LETTERS = typ.Literal["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
 
 Y = dict[str, typ.Any] | datasets.Dataset | datasets.DatasetDict
+Methods = typ.Literal["direct", "fewshots"]
 
 
 def _answer_to_int(x: int | ANSWER_CHOICES_LETTERS) -> int:

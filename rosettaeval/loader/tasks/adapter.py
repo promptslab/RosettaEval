@@ -4,8 +4,8 @@ import typing as typ
 import datasets
 import pydantic
 
-from rosettaeval.loader.models import MultipleChoiceModel
-from rosettaeval.loader.types import Y
+from rosettaeval.loader.tasks.models import MultipleChoiceModel
+from rosettaeval.loader.tasks.types import Y
 
 Im = typ.TypeVar("Im", bound=pydantic.BaseModel)
 Om = typ.TypeVar("Om", bound=MultipleChoiceModel)

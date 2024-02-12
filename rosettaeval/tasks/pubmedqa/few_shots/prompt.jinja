@@ -1,0 +1,15 @@
+{% if description %}{{ description }}
+{% endif %}{% if instruction %}{{ instruction }}
+{% else %}The following are multiple choice questions (with answers) about medical knowledge.
+{% endif %}{% if examples %}{% for item in examples %}
+Answer the following question given the context (reply with one of the options): Context: {{ item.context }}
+Question: {{ item.question }}
+Choices:{% for choice in item.choices %}
+{{ loop.index0 | to_letter }}. {{ choice }}{% endfor %}
+Answer: {{ item.answer }}
+{% endfor %}{% endif %}
+Answer the following question given the context (reply with one of the options): Context: {{ context }}
+Question: {{ question }}
+Choices:{% for choice in choices %}
+{{ loop.index0 | to_letter }}. {{ choice }}{% endfor %}
+Answer: {{ answer }}

@@ -1,0 +1,60 @@
+{
+   "examples": [
+  {
+    "question": "A 35-year-old woman comes to the physician because of two 12-hour episodes of dizziness over the past 3 months. During episodes, she experiences the acute onset of rotatory vertigo and imbalance, decreased hearing, tinnitus, a sense of fullness of the right ear, and vomiting. Examination shows a mild hearing loss of the right ear. Which of the following is the most likely diagnosis?",
+    "choices": [
+      "Acoustic neuroma",
+      "Benign positional vertigo",
+      "Brain stem transient ischemic attacks",
+      "Meniere's disease"
+    ],
+    "answer": "D",
+    "answer_text": "Meniere's disease"
+  },
+  {
+    "question": "A 60-year-old man had a total thyroidectomy and excision of enlarged left jugular lymph nodes for follicular carcinoma. The operation was uncomplicated. He is receiving intravenous 5% dextrose and 0.45% saline with potassium. Twelve hours after the operation he develops circumoral numbness and paresthesias in his fingertips, and he becomes very anxious. Vital signs are temperature 37.6°C (99.7°F), pulse 90/min, respirations 16/min, and blood pressure 140/90 mm Hg. Physical examination discloses a dry neck dressing and no stridor. Extremities are warm, with brisk capillary refill time. Additional physical examination is most likely to show which of the following?",
+    "choices": [
+      "Babinski sign present bilaterally",
+      "Chvostek sign",
+      "Deviation of the tongue to the left side",
+      "A drooping left shoulder"
+    ],
+    "answer": "B",
+    "answer_text": "Chvostek sign"
+  },
+  {
+    "question": "A 37-year-old man comes to the physician because of nonradiating low back pain for 3 days. The pain began after he worked in his yard. He has not had any change in bowel movements or urination. He had one similar episode 3 years ago that resolved spontaneously. Vital signs are within normal limits. Examination of the back shows bilateral paravertebral muscle spasm. Range of motion is limited by pain. Straight-leg raising is negative. In addition to analgesia, which of the following is the most appropriate next step in management?",
+    "choices": [
+      "Bed rest",
+      "Regular activity",
+      "X-rays of the spine",
+      "MRI of the spine"
+    ],
+    "answer": "B",
+    "answer_text": "Regular activity"
+  },
+  {
+    "question": "An investigator is studying the incidence of the common cold among medical students at various time points during the school year. Results show an increased incidence of upper respiratory tract infections among these students during finals week. It is hypothesized that the stress of studying for examinations adversely affects the immune system, making the students more susceptible to infection. Which of the following laboratory findings in these students during examination week is most likely to support this hypothesis?",
+    "choices": [
+      "Decreased AM serum cortisol concentration",
+      "Decreased macrophage activity",
+      "Increased basophil count",
+      "Increased lymphocyte count"
+    ],
+    "answer": "B",
+    "answer_text": "Decreased macrophage activity"
+  },
+  {
+    "question": "A new severe respiratory illness caused by a newly identified virus is discovered. Which of the following properties of a killed vaccine relative to a live vaccine is the most appropriate rationale for developing a killed vaccine for this illness?",
+    "choices": [
+      "Avoids the concern for reversion to virulence",
+      "Develops more rapid protective immunity",
+      "Is less likely to require subsequent boosters for lifelong immunity",
+      "Is most likely to generate mucosal immunity"
+    ],
+    "answer": "A",
+    "answer_text": "Avoids the concern for reversion to virulence"
+  }
+]
+
+}

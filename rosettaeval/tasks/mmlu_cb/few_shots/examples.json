@@ -1,0 +1,60 @@
+{
+   "examples": [
+  {
+    "question": "The sight organs of crustaceans and insects contain ommatidia, which make up the individual visual units of the",
+    "choices": [
+      "eyespot",
+      "simple eye",
+      "compound eye",
+      "binocular eye"
+    ],
+    "answer": "C",
+    "answer_text": "compound eye"
+  },
+  {
+    "question": "Gene flow between populations results in",
+    "choices": [
+      "an increase in genetic homogeneity in the metapopulation",
+      "an increase in the rate of deleterious mutations in the metapopulation",
+      "an increased likelihood of speciation",
+      "disruption of Hardy-Weinberg equilibrium in the metapopulation"
+    ],
+    "answer": "A",
+    "answer_text": "an increase in genetic homogeneity in the metapopulation"
+  },
+  {
+    "question": "A species of small rodent eats seeds from only one species of pine. In normal years, a pair of these rodents will have a litter of two or three. It is unusual for small rodents to have such small litter sizes. The rodents are most likely to exhibit which other characteristic?",
+    "choices": [
+      "Moderate sexual size dimorphism",
+      "High parental investment",
+      "Precocial young",
+      "Frequent extrapair matings"
+    ],
+    "answer": "B",
+    "answer_text": "High parental investment"
+  },
+  {
+    "question": "A female fruit fly bearing linked genes that produce the phenotype gray body and normal wings mates with a male fruit fly of phenotype black body and vestigial wings. The presence of gray-bodied, vestigial-winged flies among the progeny is best explained by",
+    "choices": [
+      "crossing over",
+      "independent assortment",
+      "segregation of alleles",
+      "penetrance"
+    ],
+    "answer": "A",
+    "answer_text": "crossing over"
+  },
+  {
+    "question": "A plant that grows along a trellis exhibits",
+    "choices": [
+      "thigmotropism",
+      "phototropism",
+      "gravidotropism",
+      "negative gravidotropism"
+    ],
+    "answer": "A",
+    "answer_text": "thigmotropism"
+  }
+]
+
+}

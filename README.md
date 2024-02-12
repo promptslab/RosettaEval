@@ -1,5 +1,5 @@
 <div align="center">
-<img width="160px" src="https://raw.githubusercontent.com/promptslab/RosettaEval/main/assets/eval.png">
+<img width="110px" src="https://raw.githubusercontent.com/promptslab/RosettaEval/main/assets/eval.png">
 <h1>RosettaEval</h1></div>
 <!-- 
 <h2 align="center">RosettaEval</h2> -->
